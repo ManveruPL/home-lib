@@ -1,0 +1,75 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.211"
+        android:scaleY="0.211">
+        <!-- Chimney -->
+        <path
+            android:fillColor="#DEB25B"
+            android:strokeColor="#DEB25B"
+            android:strokeWidth="2"
+            android:pathData="M312,178 L312,152 L340,152 L340,200 Z" />
+
+        <!-- Outer House Roof (Eaves) -->
+        <path
+            android:strokeColor="#DEB25B"
+            android:strokeWidth="22"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M124,238 L256,134 L388,238" />
+
+        <!-- Inner House Frame & Base -->
+        <path
+            android:strokeColor="#DEB25B"
+            android:strokeWidth="12"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M152,250 L152,374 L234,374 M278,374 L360,374 L360,250" />
+
+        <!-- Book Spine Bottom Notch -->
+        <path
+            android:strokeColor="#DEB25B"
+            android:strokeWidth="12"
+            android:strokeLineCap="round"
+            android:pathData="M232,374 C238,388 274,388 280,374" />
+
+        <!-- Open Book - Left Page -->
+        <path
+            android:fillColor="#F6EAD0"
+            android:strokeColor="#144C3A"
+            android:strokeWidth="4"
+            android:strokeLineJoin="round"
+            android:pathData="M250,248 C218,238 178,244 166,250 C164,251 162,254 162,258 L162,354 C176,348 216,342 250,354 Z" />
+
+        <!-- Open Book - Right Page -->
+        <path
+            android:fillColor="#F6EAD0"
+            android:strokeColor="#144C3A"
+            android:strokeWidth="4"
+            android:strokeLineJoin="round"
+            android:pathData="M262,248 C294,238 334,244 346,250 C348,251 350,254 350,258 L350,354 C336,348 296,342 262,354 Z" />
+
+        <!-- Book Page Accent Lines -->
+        <path
+            android:strokeColor="#DEB25B"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:pathData="M166,358 C188,350 222,346 250,358" />
+
+        <path
+            android:strokeColor="#DEB25B"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:pathData="M346,358 C324,350 290,346 262,358" />
+
+        <!-- Central Page Division -->
+        <path
+            android:strokeColor="#144C3A"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M256,248 L256,354" />
+    </group>
+</vector>

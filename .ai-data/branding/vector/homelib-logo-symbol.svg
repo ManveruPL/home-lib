@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECC678"/>
+      <stop offset="50%" stop-color="#DEB25B"/>
+      <stop offset="100%" stop-color="#BA8C34"/>
+    </linearGradient>
+
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF4E6"/>
+      <stop offset="100%" stop-color="#F2E3C6"/>
+    </linearGradient>
+  </defs>
+
+  <g id="homelib-symbol">
+    <!-- Chimney -->
+    <path d="M312 178 V 152 H 340 V 200 Z" fill="url(#goldGrad)" stroke="url(#goldGrad)" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Outer House Roof (Eaves) -->
+    <path d="M124 238 L 256 134 L 388 238" 
+          fill="none" 
+          stroke="url(#goldGrad)" 
+          stroke-width="22" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+
+    <!-- Inner House Frame & Base -->
+    <path d="M152 250 V 374 H 234 M 278 374 H 360 V 250" 
+          fill="none" 
+          stroke="url(#goldGrad)" 
+          stroke-width="12" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+
+    <!-- Book Spine Bottom Notch -->
+    <path d="M232 374 C 238 388, 274 388, 280 374" 
+          fill="none" 
+          stroke="url(#goldGrad)" 
+          stroke-width="12" 
+          stroke-linecap="round"/>
+
+    <!-- Open Book - Left Page -->
+    <path d="M250 248 C 218 238, 178 244, 166 250 C 164 251, 162 254, 162 258 V 354 C 176 348, 216 342, 250 354 Z" 
+          fill="url(#pageGrad)" 
+          stroke="#144C3A" 
+          stroke-width="4" 
+          stroke-linejoin="round"/>
+
+    <!-- Open Book - Right Page -->
+    <path d="M262 248 C 294 238, 334 244, 346 250 C 348 251, 350 254, 350 258 V 354 C 336 348, 296 342, 262 354 Z" 
+          fill="url(#pageGrad)" 
+          stroke="#144C3A" 
+          stroke-width="4" 
+          stroke-linejoin="round"/>
+
+    <!-- Book Page Layer Lines (Depth effect) -->
+    <path d="M166 358 C 188 350, 222 346, 250 358" 
+          fill="none" 
+          stroke="url(#goldGrad)" 
+          stroke-width="6" 
+          stroke-linecap="round"/>
+
+    <path d="M346 358 C 324 350, 290 346, 262 358" 
+          fill="none" 
+          stroke="url(#goldGrad)" 
+          stroke-width="6" 
+          stroke-linecap="round"/>
+
+    <!-- Central Page Division -->
+    <line x1="256" y1="248" x2="256" y2="354" stroke="#144C3A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

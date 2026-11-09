@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt b/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt
+index f9648bc..3741a6f 100644
+--- a/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt
++++ b/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt
+@@ -229,8 +229,10 @@ class ScreenStackHeaderConfig(
+         }
+ 
+     fun onUpdate() {
+-        val stack = screenStack
+-        val isTop = stack == null || stack.topScreen == parent
++        // Patched (software-mansion/react-native-screens#4498): a screen that already left its
++        // stack can still get a header props update; canNavigateBack() would then throw.
++        val stack = screenStack ?: return
++        val isTop = stack.topScreen == parent
+ 
+         if (!isAttachedToWindow || !isTop || isDestroyed) {
+             return

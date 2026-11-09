@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HomeLib Brand Palette -->
+    <color name="homelib_evergreen_primary">#144C3A</color>
+    <color name="homelib_evergreen_dark">#0E382A</color>
+    <color name="homelib_evergreen_light">#1B5542</color>
+    <color name="homelib_gold_accent">#DEB25B</color>
+    <color name="homelib_gold_light">#ECC678</color>
+    <color name="homelib_parchment_cream">#F6EAD0</color>
+    <color name="homelib_espresso_ink">#221811</color>
+    <color name="homelib_deep_walnut">#121A16</color>
+    <color name="homelib_sage_tertiary">#7E9F8E</color>
+
+    <!-- App Launcher Colors -->
+    <color name="ic_launcher_background">#144C3A</color>
+
+    <!-- Material Design 3 Theme Tokens (Light) -->
+    <color name="md_theme_light_primary">#144C3A</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#BAE8D4</color>
+    <color name="md_theme_light_onPrimaryContainer">#002117</color>
+    <color name="md_theme_light_secondary">#7A5900</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#FFDF9E</color>
+    <color name="md_theme_light_onSecondaryContainer">#261A00</color>
+    <color name="md_theme_light_tertiary">#3E6554</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_background">#FAF6EE</color>
+    <color name="md_theme_light_onBackground">#191C1B</color>
+    <color name="md_theme_light_surface">#FAF6EE</color>
+    <color name="md_theme_light_onSurface">#191C1B</color>
+    <color name="md_theme_light_surfaceVariant">#DBE5DF</color>
+    <color name="md_theme_light_onSurfaceVariant">#3F4945</color>
+    <color name="md_theme_light_outline">#707975</color>
+
+    <!-- Material Design 3 Theme Tokens (Dark) -->
+    <color name="md_theme_dark_primary">#9ED2BD</color>
+    <color name="md_theme_dark_onPrimary">#003829</color>
+    <color name="md_theme_dark_primaryContainer">#00513C</color>
+    <color name="md_theme_dark_onPrimaryContainer">#BAE8D4</color>
+    <color name="md_theme_dark_secondary">#FAC05E</color>
+    <color name="md_theme_dark_onSecondary">#412D00</color>
+    <color name="md_theme_dark_secondaryContainer">#5C4200</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFDF9E</color>
+    <color name="md_theme_dark_tertiary">#A4CDAE</color>
+    <color name="md_theme_dark_onTertiary">#0E3722</color>
+    <color name="md_theme_dark_background">#121A16</color>
+    <color name="md_theme_dark_onBackground">#E1E3DF</color>
+    <color name="md_theme_dark_surface">#121A16</color>
+    <color name="md_theme_dark_onSurface">#E1E3DF</color>
+    <color name="md_theme_dark_surfaceVariant">#3F4945</color>
+    <color name="md_theme_dark_onSurfaceVariant">#BFC9C3</color>
+    <color name="md_theme_dark_outline">#89938E</color>
+</resources>

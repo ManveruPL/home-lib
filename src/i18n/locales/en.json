@@ -1,0 +1,234 @@
+{
+  "tabs": {
+    "library": "Library",
+    "search": "Search",
+    "scan": "Quick Scan",
+    "settings": "Settings"
+  },
+  "common": {
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "done": "Done",
+    "ok": "OK",
+    "clear": "Clear",
+    "search": "Search",
+    "new": "new",
+    "noResults": "Nothing found",
+    "removeItem": "Remove {{name}}",
+    "datePlaceholder": "YYYY or YYYY-MM-DD"
+  },
+  "db": {
+    "migrationError": "Database migration failed: {{message}}"
+  },
+  "library": {
+    "emptyTitle": "Your library is empty",
+    "emptyBody": "Add your first book by hand, or scan its barcode.",
+    "addBook": "Add book",
+    "scanBook": "Scan a barcode",
+    "searchPlaceholder": "Title, author or ISBN",
+    "sort": "Sort",
+    "count": "Books: {{n}}",
+    "noMatches": "No matching books",
+    "noMatchesBody": "Try another search or clear the filters."
+  },
+  "search": {
+    "promptTitle": "Find a book",
+    "promptBody": "Type a title, author or ISBN, or narrow the library down with the filters above."
+  },
+  "sort": {
+    "dateAdded_desc": "Recently added",
+    "dateAdded_asc": "Oldest added",
+    "title_asc": "Title A–Z",
+    "title_desc": "Title Z–A",
+    "author_asc": "Author A–Z",
+    "author_desc": "Author Z–A",
+    "rating_desc": "Highest rated",
+    "pages_asc": "Shortest",
+    "pages_desc": "Longest"
+  },
+  "filters": {
+    "author": "Author",
+    "anyAuthor": "Any author",
+    "genre": "Genre",
+    "genreCount": "Genres: {{n}}",
+    "status": "Status",
+    "statusCount": "Statuses: {{n}}",
+    "ownership": "Ownership",
+    "allBooks": "All books",
+    "clear": "Clear filters"
+  },
+  "book": {
+    "newTitle": "Add book",
+    "editTitle": "Edit book",
+    "detailsTitle": "Book",
+    "notFound": "This book no longer exists",
+    "edit": "Edit book",
+    "delete": "Delete book",
+    "deleteTitle": "Delete book?",
+    "deleteBody": "“{{title}}” will be removed from your library. Authors and genres are kept.",
+    "sections": {
+      "details": "Book details",
+      "myCopy": "My copy"
+    },
+    "fields": {
+      "isbn": "ISBN",
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "authors": "Authors",
+      "genres": "Genres",
+      "publisher": "Publisher",
+      "publicationDate": "Published",
+      "description": "Description",
+      "pageCount": "Pages",
+      "coverImage": "Cover",
+      "language": "Language",
+      "ownershipStatus": "Ownership",
+      "readingStatus": "Reading status",
+      "personalRating": "My rating",
+      "physicalLocation": "Shelf / location",
+      "personalNotes": "Personal notes",
+      "dateCataloged": "Added"
+    },
+    "ownership": {
+      "OWNED": "Owned",
+      "WISHLIST": "Wishlist"
+    },
+    "reading": {
+      "TO_READ": "To read",
+      "READING": "Reading",
+      "COMPLETED": "Completed",
+      "PAUSED": "Paused"
+    },
+    "downloadInfo": "Download info",
+    "scanIsbn": "Scan ISBN barcode",
+    "removeCover": "Remove cover",
+    "takeCoverPhoto": "Take photo",
+    "pickCoverFromGallery": "Choose from gallery",
+    "coverCameraPermission": "HomeLib needs the camera to photograph the cover. You can allow it in the app settings.",
+    "selectAuthors": "Select authors",
+    "selectGenres": "Add genres",
+    "suggestedGenres": "Suggested from the book record:",
+    "locationPlaceholder": "e.g. Living room – shelf 3",
+    "ratingValue": "Rating: {{n}} of 5",
+    "rateStars": "Rate {{n}} of 5"
+  },
+  "author": {
+    "title": "Author",
+    "notFound": "This author no longer exists",
+    "edit": "Edit author",
+    "addNew": "Add new author",
+    "addNamed": "Add author “{{name}}”",
+    "searchPlaceholder": "Search authors",
+    "empty": "No authors yet. Add the first one below.",
+    "booksInLibrary": "In your library ({{n}})",
+    "fields": {
+      "name": "Name",
+      "biography": "Biography",
+      "birthDate": "Born",
+      "deathDate": "Died"
+    }
+  },
+  "genre": {
+    "searchPlaceholder": "Search or type a new genre",
+    "addNamed": "Add genre “{{name}}”",
+    "empty": "No genres yet. Type a name to create one."
+  },
+  "languages": {
+    "none": "Not set",
+    "pl": "Polish",
+    "en": "English",
+    "de": "German",
+    "fr": "French",
+    "es": "Spanish",
+    "it": "Italian",
+    "ru": "Russian",
+    "uk": "Ukrainian",
+    "cs": "Czech",
+    "sk": "Slovak",
+    "lt": "Lithuanian",
+    "la": "Latin"
+  },
+  "lookup": {
+    "found": "Filled in from {{source}}. Check the details before saving.",
+    "notFound": "ISBN not found. Please fill in the details manually.",
+    "offline": "Could not reach the book databases. Check your connection or fill in manually.",
+    "failed": "Downloading book info failed. Please fill in manually.",
+    "sources": {
+      "e-isbn": "e-ISBN (Biblioteka Narodowa)",
+      "open-library": "Open Library"
+    }
+  },
+  "scan": {
+    "hint": "Align the barcode on the back cover inside the frame",
+    "lookingUp": "Looking up {{isbn}}…",
+    "permissionTitle": "Camera access needed",
+    "permissionBody": "HomeLib uses the camera only to read book barcodes.",
+    "grantPermission": "Allow camera",
+    "openSettings": "Open settings",
+    "torchOn": "Turn flashlight on",
+    "torchOff": "Turn flashlight off",
+    "duplicateTitle": "Already in your library",
+    "duplicateBody": "A book with this ISBN is already cataloged.",
+    "openExisting": "Open book",
+    "notFoundTitle": "Book not found",
+    "notFoundBody": "This ISBN is not in e-ISBN or Open Library. You can add the book manually.",
+    "incompleteBody": "The book was found, but without an author. Complete the details in the form.",
+    "offlineTitle": "No connection",
+    "offlineBody": "The book databases could not be reached. You can add the book manually.",
+    "errorTitle": "Something went wrong",
+    "errorBody": "The book could not be added automatically. You can add it manually.",
+    "openForm": "Open form"
+  },
+  "form": {
+    "discardTitle": "Discard changes?",
+    "discardBody": "Your changes to this book have not been saved.",
+    "keepEditing": "Keep editing",
+    "discard": "Discard",
+    "saveFailedTitle": "Could not save",
+    "saveFailedBody": "The book could not be saved. Please try again."
+  },
+  "settings": {
+    "library": "Your library",
+    "stats": {
+      "books": "Books",
+      "authors": "Authors",
+      "genres": "Genres"
+    },
+    "data": "Backup & restore",
+    "dataInfo": "Your library is stored only on this device. Clearing app data or losing the phone erases it, so back it up regularly.",
+    "backup": "Back up library",
+    "backupDialogTitle": "Save HomeLib backup",
+    "backupFailedTitle": "Backup failed",
+    "backupFailedBody": "The backup file could not be created.",
+    "restore": "Restore from backup",
+    "restoreTitle": "Restore backup?",
+    "restoreConfirm": "Restoring will merge items into your library. Existing duplicate books will be skipped. Proceed?",
+    "restoreProceed": "Restore",
+    "backupContents": "Backup from {{date}} with {{books}} books.",
+    "restoreDoneTitle": "Restore complete",
+    "restoreDoneBody": "Books added: {{booksAdded}}\nDuplicates skipped: {{booksSkipped}}\nNew authors: {{authorsAdded}}\nNew genres: {{genresAdded}}\nCovers restored: {{coversRestored}}",
+    "restoreFailedTitle": "Restore failed",
+    "restoreFailedBody": "The backup could not be restored. Your library was not changed.",
+    "invalidBackup": "This file is not a HomeLib backup.",
+    "appearance": "Language",
+    "language": "App language",
+    "languageSystem": "System",
+    "about": "About",
+    "version": "HomeLib {{version}}",
+    "sources": "Book data from e-ISBN (Biblioteka Narodowa) and Open Library."
+  },
+  "validation": {
+    "required": "This field is required",
+    "isbnFormat": "ISBN must have 10 or 13 digits",
+    "isbnChecksum": "This is not a valid ISBN – check the digits",
+    "titleTooLong": "Title can have at most 255 characters",
+    "languageTooLong": "Language code is too long",
+    "dateFormat": "Use YYYY or YYYY-MM-DD",
+    "positiveInteger": "Must be a positive whole number",
+    "atLeastOneAuthor": "Select at least one author"
+  }
+}

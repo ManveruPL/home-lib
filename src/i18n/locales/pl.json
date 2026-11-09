@@ -1,0 +1,234 @@
+{
+  "tabs": {
+    "library": "Biblioteka",
+    "search": "Szukaj",
+    "scan": "Skanuj",
+    "settings": "Ustawienia"
+  },
+  "common": {
+    "save": "Zapisz",
+    "saveChanges": "Zapisz zmiany",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "done": "Gotowe",
+    "ok": "OK",
+    "clear": "Wyczyść",
+    "search": "Szukaj",
+    "new": "nowy",
+    "noResults": "Nic nie znaleziono",
+    "removeItem": "Usuń {{name}}",
+    "datePlaceholder": "RRRR lub RRRR-MM-DD"
+  },
+  "db": {
+    "migrationError": "Migracja bazy danych nie powiodła się: {{message}}"
+  },
+  "library": {
+    "emptyTitle": "Twoja biblioteka jest pusta",
+    "emptyBody": "Dodaj pierwszą książkę ręcznie albo zeskanuj jej kod kreskowy.",
+    "addBook": "Dodaj książkę",
+    "scanBook": "Zeskanuj kod",
+    "searchPlaceholder": "Tytuł, autor lub ISBN",
+    "sort": "Sortuj",
+    "count": "Książki: {{n}}",
+    "noMatches": "Brak pasujących książek",
+    "noMatchesBody": "Zmień wyszukiwanie albo wyczyść filtry."
+  },
+  "search": {
+    "promptTitle": "Znajdź książkę",
+    "promptBody": "Wpisz tytuł, autora lub ISBN albo zawęź bibliotekę filtrami powyżej."
+  },
+  "sort": {
+    "dateAdded_desc": "Ostatnio dodane",
+    "dateAdded_asc": "Najdawniej dodane",
+    "title_asc": "Tytuł A–Z",
+    "title_desc": "Tytuł Z–A",
+    "author_asc": "Autor A–Z",
+    "author_desc": "Autor Z–A",
+    "rating_desc": "Najwyżej ocenione",
+    "pages_asc": "Najkrótsze",
+    "pages_desc": "Najdłuższe"
+  },
+  "filters": {
+    "author": "Autor",
+    "anyAuthor": "Dowolny autor",
+    "genre": "Gatunek",
+    "genreCount": "Gatunki: {{n}}",
+    "status": "Status",
+    "statusCount": "Statusy: {{n}}",
+    "ownership": "Posiadanie",
+    "allBooks": "Wszystkie książki",
+    "clear": "Wyczyść filtry"
+  },
+  "book": {
+    "newTitle": "Dodaj książkę",
+    "editTitle": "Edytuj książkę",
+    "detailsTitle": "Książka",
+    "notFound": "Ta książka już nie istnieje",
+    "edit": "Edytuj książkę",
+    "delete": "Usuń książkę",
+    "deleteTitle": "Usunąć książkę?",
+    "deleteBody": "„{{title}}” zostanie usunięta z biblioteki. Autorzy i gatunki pozostaną.",
+    "sections": {
+      "details": "Szczegóły książki",
+      "myCopy": "Mój egzemplarz"
+    },
+    "fields": {
+      "isbn": "ISBN",
+      "title": "Tytuł",
+      "subtitle": "Podtytuł",
+      "authors": "Autorzy",
+      "genres": "Gatunki",
+      "publisher": "Wydawca",
+      "publicationDate": "Data wydania",
+      "description": "Opis",
+      "pageCount": "Liczba stron",
+      "coverImage": "Okładka",
+      "language": "Język",
+      "ownershipStatus": "Posiadanie",
+      "readingStatus": "Status czytania",
+      "personalRating": "Moja ocena",
+      "physicalLocation": "Półka / miejsce",
+      "personalNotes": "Notatki",
+      "dateCataloged": "Dodano"
+    },
+    "ownership": {
+      "OWNED": "Posiadam",
+      "WISHLIST": "Do kupienia"
+    },
+    "reading": {
+      "TO_READ": "Do przeczytania",
+      "READING": "Czytam",
+      "COMPLETED": "Przeczytana",
+      "PAUSED": "Wstrzymana"
+    },
+    "downloadInfo": "Pobierz dane",
+    "scanIsbn": "Zeskanuj kod ISBN",
+    "removeCover": "Usuń okładkę",
+    "takeCoverPhoto": "Zrób zdjęcie",
+    "pickCoverFromGallery": "Wybierz z galerii",
+    "coverCameraPermission": "HomeLib potrzebuje aparatu, aby sfotografować okładkę. Możesz na to zezwolić w ustawieniach aplikacji.",
+    "selectAuthors": "Wybierz autorów",
+    "selectGenres": "Dodaj gatunki",
+    "suggestedGenres": "Propozycje z opisu bibliograficznego:",
+    "locationPlaceholder": "np. Salon – półka 3",
+    "ratingValue": "Ocena: {{n}} na 5",
+    "rateStars": "Oceń na {{n}} z 5"
+  },
+  "author": {
+    "title": "Autor",
+    "notFound": "Ten autor już nie istnieje",
+    "edit": "Edytuj autora",
+    "addNew": "Dodaj nowego autora",
+    "addNamed": "Dodaj autora „{{name}}”",
+    "searchPlaceholder": "Szukaj autorów",
+    "empty": "Brak autorów. Dodaj pierwszego poniżej.",
+    "booksInLibrary": "W Twojej bibliotece ({{n}})",
+    "fields": {
+      "name": "Imię i nazwisko",
+      "biography": "Biografia",
+      "birthDate": "Urodzony",
+      "deathDate": "Zmarły"
+    }
+  },
+  "genre": {
+    "searchPlaceholder": "Szukaj lub wpisz nowy gatunek",
+    "addNamed": "Dodaj gatunek „{{name}}”",
+    "empty": "Brak gatunków. Wpisz nazwę, aby utworzyć nowy."
+  },
+  "languages": {
+    "none": "Nie ustawiono",
+    "pl": "polski",
+    "en": "angielski",
+    "de": "niemiecki",
+    "fr": "francuski",
+    "es": "hiszpański",
+    "it": "włoski",
+    "ru": "rosyjski",
+    "uk": "ukraiński",
+    "cs": "czeski",
+    "sk": "słowacki",
+    "lt": "litewski",
+    "la": "łacina"
+  },
+  "lookup": {
+    "found": "Uzupełniono z: {{source}}. Sprawdź dane przed zapisaniem.",
+    "notFound": "Nie znaleziono ISBN. Uzupełnij dane ręcznie.",
+    "offline": "Brak połączenia z bazami książek. Sprawdź internet lub uzupełnij dane ręcznie.",
+    "failed": "Nie udało się pobrać danych książki. Uzupełnij je ręcznie.",
+    "sources": {
+      "e-isbn": "e-ISBN (Biblioteka Narodowa)",
+      "open-library": "Open Library"
+    }
+  },
+  "scan": {
+    "hint": "Umieść kod kreskowy z tylnej okładki w ramce",
+    "lookingUp": "Wyszukiwanie {{isbn}}…",
+    "permissionTitle": "Potrzebny dostęp do aparatu",
+    "permissionBody": "HomeLib używa aparatu wyłącznie do odczytu kodów kreskowych książek.",
+    "grantPermission": "Zezwól na aparat",
+    "openSettings": "Otwórz ustawienia",
+    "torchOn": "Włącz latarkę",
+    "torchOff": "Wyłącz latarkę",
+    "duplicateTitle": "Już w Twojej bibliotece",
+    "duplicateBody": "Książka z tym numerem ISBN jest już skatalogowana.",
+    "openExisting": "Otwórz książkę",
+    "notFoundTitle": "Nie znaleziono książki",
+    "notFoundBody": "Tego ISBN nie ma w e-ISBN ani w Open Library. Możesz dodać książkę ręcznie.",
+    "incompleteBody": "Książkę znaleziono, ale bez autora. Uzupełnij dane w formularzu.",
+    "offlineTitle": "Brak połączenia",
+    "offlineBody": "Nie udało się połączyć z bazami książek. Możesz dodać książkę ręcznie.",
+    "errorTitle": "Coś poszło nie tak",
+    "errorBody": "Nie udało się dodać książki automatycznie. Możesz dodać ją ręcznie.",
+    "openForm": "Otwórz formularz"
+  },
+  "form": {
+    "discardTitle": "Odrzucić zmiany?",
+    "discardBody": "Zmiany w tej książce nie zostały zapisane.",
+    "keepEditing": "Edytuj dalej",
+    "discard": "Odrzuć",
+    "saveFailedTitle": "Nie udało się zapisać",
+    "saveFailedBody": "Książki nie udało się zapisać. Spróbuj ponownie."
+  },
+  "settings": {
+    "library": "Twoja biblioteka",
+    "stats": {
+      "books": "Książki",
+      "authors": "Autorzy",
+      "genres": "Gatunki"
+    },
+    "data": "Kopia zapasowa",
+    "dataInfo": "Biblioteka jest przechowywana tylko na tym urządzeniu. Wyczyszczenie danych aplikacji lub utrata telefonu ją usunie, więc regularnie twórz kopię.",
+    "backup": "Utwórz kopię zapasową",
+    "backupDialogTitle": "Zapisz kopię HomeLib",
+    "backupFailedTitle": "Kopia nie powiodła się",
+    "backupFailedBody": "Nie udało się utworzyć pliku kopii.",
+    "restore": "Przywróć z kopii",
+    "restoreTitle": "Przywrócić kopię?",
+    "restoreConfirm": "Przywrócenie scali dane z Twoją biblioteką. Istniejące duplikaty zostaną pominięte. Kontynuować?",
+    "restoreProceed": "Przywróć",
+    "backupContents": "Kopia z {{date}}, liczba książek: {{books}}.",
+    "restoreDoneTitle": "Przywracanie zakończone",
+    "restoreDoneBody": "Dodane książki: {{booksAdded}}\nPominięte duplikaty: {{booksSkipped}}\nNowi autorzy: {{authorsAdded}}\nNowe gatunki: {{genresAdded}}\nPrzywrócone okładki: {{coversRestored}}",
+    "restoreFailedTitle": "Przywracanie nie powiodło się",
+    "restoreFailedBody": "Nie udało się przywrócić kopii. Biblioteka nie została zmieniona.",
+    "invalidBackup": "Ten plik nie jest kopią zapasową HomeLib.",
+    "appearance": "Język",
+    "language": "Język aplikacji",
+    "languageSystem": "Systemowy",
+    "about": "O aplikacji",
+    "version": "HomeLib {{version}}",
+    "sources": "Dane książek z e-ISBN (Biblioteka Narodowa) i Open Library."
+  },
+  "validation": {
+    "required": "To pole jest wymagane",
+    "isbnFormat": "ISBN musi mieć 10 lub 13 cyfr",
+    "isbnChecksum": "To nie jest poprawny ISBN – sprawdź cyfry",
+    "titleTooLong": "Tytuł może mieć najwyżej 255 znaków",
+    "languageTooLong": "Kod języka jest za długi",
+    "dateFormat": "Użyj formatu RRRR lub RRRR-MM-DD",
+    "positiveInteger": "Musi być dodatnią liczbą całkowitą",
+    "atLeastOneAuthor": "Wybierz co najmniej jednego autora"
+  }
+}

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.0"
+    eisbn:nextPage="https://e-isbn.pl/IsbnWeb/api.xml?idFrom=1474685&amp;max=100&amp;dateFrom=2026-06-01"
+    xsi:schemaLocation="http://ns.editeur.org/onix/3.0/reference https://e-isbn.pl/IsbnWeb/schemas/ONIX_BookProduct_3.0_reference.xsd"
+    xmlns:eisbn="http://e-isbn.pl"
+    xmlns="http://ns.editeur.org/onix/3.0/reference" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <Sender>
+            <SenderName>Serwis e-ISBN</SenderName>
+            <ContactName>Bożena Wojtas, tel. +48226082410</ContactName>
+            <EmailAddress>bnisbn@bn.org.pl</EmailAddress>
+        </Sender>
+        <MessageNumber>4559</MessageNumber>
+        <SentDateTime>20260924T2025+0000</SentDateTime>
+        <MessageNote>API e-ISBN</MessageNote>
+        <DefaultLanguageOfText>pol</DefaultLanguageOfText>
+    </Header>
+    <Product datestamp="20260913">
+        <RecordReference>pl-eisbn-1403894</RecordReference>
+        <NotificationType>03</NotificationType>
+        <RecordSourceType>01</RecordSourceType>
+        <RecordSourceName>Wydawnictwo M, spółka z o.o.</RecordSourceName>
+        <ProductIdentifier>
+            <ProductIDType>15</ProductIDType>
+            <IDValue>9788380432239</IDValue>
+        </ProductIdentifier>
+        <ProductIdentifier>
+            <ProductIDType>01</ProductIDType>
+            <IDTypeName>numer rekordu Biblioteki Narodowej</IDTypeName>
+            <IDValue>b1000007494329</IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition>00</ProductComposition>
+            <ProductForm>BC</ProductForm>
+            <Measure>
+                <MeasureType>01</MeasureType>
+                <Measurement>21</Measurement>
+                <MeasureUnitCode>cm</MeasureUnitCode>
+            </Measure>
+            <TitleDetail>
+                <TitleType>01</TitleType>
+                <TitleElement>
+                    <TitleElementLevel>01</TitleElementLevel>
+                    <TitleText>Ojciec Święty Leon XIV u progu pontyfikatu</TitleText>
+                    <Subtitle>sylwetka duchowa /</Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber>1</SequenceNumber>
+                <ContributorRole>Z99</ContributorRole>
+                <PersonNameInverted>Radzyński, Przemysław</PersonNameInverted>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber>2</SequenceNumber>
+                <ContributorRole>Z99</ContributorRole>
+                <PersonNameInverted>Leon</PersonNameInverted>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber>3</SequenceNumber>
+                <ContributorRole>Z99</ContributorRole>
+                <PersonNameInverted>Wydawnictwo M</PersonNameInverted>
+            </Contributor>
+            <EditionType>NED</EditionType>
+            <EditionNumber>1</EditionNumber>
+            <Language>
+                <LanguageRole>01</LanguageRole>
+                <LanguageCode>pol</LanguageCode>
+            </Language>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Papieże</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Biskupi</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Kardynałowie</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Katolicyzm</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Duchowieństwo katolickie</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Nauczanie papieskie</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Peru</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Stany Zjednoczone (USA)</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Watykan</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Religia i duchowość</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Historia</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>09</SubjectSchemeIdentifier>
+                <SubjectCode>272-287</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>09</SubjectSchemeIdentifier>
+                <SubjectCode>272-732.2</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>09</SubjectSchemeIdentifier>
+                <SubjectCode>929-052(73)"19"</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>09</SubjectSchemeIdentifier>
+                <SubjectCode>929-052(73)"20"</SubjectCode>
+            </Subject>
+        </DescriptiveDetail>
+        <PublishingDetail>
+            <Imprint>
+                <ImprintName>Wydawnictwo M,</ImprintName>
+            </Imprint>
+            <Publisher>
+                <PublishingRole>01</PublishingRole>
+                <PublisherName>Wydawnictwo M, spółka z o.o.</PublisherName>
+            </Publisher>
+            <CityOfPublication>Kraków :</CityOfPublication>
+            <CountryOfPublication>PL</CountryOfPublication>
+            <PublishingDate>
+                <PublishingDateRole>01</PublishingDateRole>
+                <Date>20251230</Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole>09</PublishingDateRole>
+                <Date>20251230</Date>
+            </PublishingDate>
+        </PublishingDetail>
+    </Product>
+    <Product datestamp="20260818">
+        <RecordReference>pl-eisbn-1451505</RecordReference>
+        <NotificationType>03</NotificationType>
+        <RecordSourceType>01</RecordSourceType>
+        <RecordSourceName>Polski Dom Filatelistyczny, Wydawnictwo Miszczak i Wincewicz NAMISLAVIA, Tadeusz Wincewicz</RecordSourceName>
+        <ProductIdentifier>
+            <ProductIDType>15</ProductIDType>
+            <IDValue>9788365090607</IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition>00</ProductComposition>
+            <ProductForm>BC</ProductForm>
+            <Collection>
+                <CollectionType>00</CollectionType>
+                <TitleDetail>
+                    <TitleType>01</TitleType>
+                    <TitleElement>
+                        <TitleElementLevel>02</TitleElementLevel>
+                        <PartNumber>2(17)2026</PartNumber>
+                        <TitleText>Biblioteczka Towarzystwa  Miłośników Lwowa i Kresów PołudniowoWschodnich, Oddział w Namysłowie</TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
+            <TitleDetail>
+                <TitleType>01</TitleType>
+                <TitleElement>
+                    <TitleElementLevel>01</TitleElementLevel>
+                    <PartNumber>15</PartNumber>
+                    <TitleText>Moja droga...</TitleText>
+                    <Subtitle>Rozmowy Arkadiusza Oleksaka</Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber>1</SequenceNumber>
+                <ContributorRole>A44</ContributorRole>
+                <PersonNameInverted>Korytko Jan (1925-)</PersonNameInverted>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber>2</SequenceNumber>
+                <ContributorRole>A43</ContributorRole>
+                <PersonNameInverted>Oleksak Arkadiusz (1963- )</PersonNameInverted>
+            </Contributor>
+            <EditionType>NED</EditionType>
+            <EditionNumber>1</EditionNumber>
+            <Language>
+                <LanguageRole>01</LanguageRole>
+                <LanguageCode>pol</LanguageCode>
+            </Language>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <SupportingResource>
+                <ResourceContentType>01</ResourceContentType>
+                <ContentAudience>00</ContentAudience>
+                <ResourceMode>03</ResourceMode>
+                <ResourceVersion>
+                    <ResourceForm>01</ResourceForm>
+                    <ResourceLink>https://e-isbn.pl/IsbnWeb/record/show_cover.jpg?picture_id=211961</ResourceLink>
+                </ResourceVersion>
+            </SupportingResource>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Imprint>
+                <ImprintName>Namislavia, Tadeusz Wincewicz</ImprintName>
+            </Imprint>
+            <Publisher>
+                <PublishingRole>01</PublishingRole>
+                <PublisherName>Polski Dom Filatelistyczny, Wydawnictwo Miszczak i Wincewicz NAMISLAVIA, Tadeusz Wincewicz</PublisherName>
+            </Publisher>
+            <CityOfPublication>Namysłów</CityOfPublication>
+            <CountryOfPublication>PL</CountryOfPublication>
+            <PublishingDate>
+                <PublishingDateRole>01</PublishingDateRole>
+                <Date>20260508</Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole>09</PublishingDateRole>
+                <Date>20260508</Date>
+            </PublishingDate>
+        </PublishingDetail>
+    </Product>
+    <Product datestamp="20260729">
+        <RecordReference>pl-eisbn-1440091</RecordReference>
+        <NotificationType>03</NotificationType>
+        <RecordSourceType>01</RecordSourceType>
+        <RecordSourceName>Burda Media Polska Sp. z o.o.</RecordSourceName>
+        <ProductIdentifier>
+            <ProductIDType>15</ProductIDType>
+            <IDValue>9788380539570</IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition>00</ProductComposition>
+            <ProductForm>EA</ProductForm>
+            <ProductFormDetail>E101</ProductFormDetail>
+            <ProductFormDetail>E127</ProductFormDetail>
+            <EpubTechnicalProtection>02</EpubTechnicalProtection>
+            <TitleDetail>
+                <TitleType>01</TitleType>
+                <TitleElement>
+                    <TitleElementLevel>01</TitleElementLevel>
+                    <TitleText>Gdyby miało nie być jutra</TitleText>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber>1</SequenceNumber>
+                <ContributorRole>A01</ContributorRole>
+                <PersonNameInverted>Agnieszka Lingas-Łoniewska</PersonNameInverted>
+            </Contributor>
+            <EditionType>NED</EditionType>
+            <EditionNumber>1</EditionNumber>
+            <EditionStatement>wyd. 1</EditionStatement>
+            <Language>
+                <LanguageRole>01</LanguageRole>
+                <LanguageCode>pol</LanguageCode>
+            </Language>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType>03</TextType>
+                <ContentAudience>00</ContentAudience>
+                <Text>&lt;p&gt; &lt;strong&gt;Dilerka Emocji w gęstej od uczuć opowieści o ludziach, którzy nie mają nic do stracenia – poza miłością życia.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt; Kiedy Milena odeszła bez słowa, Igor obiecał sobie, że już nigdy nie da się zranić. Tylko w ten sposób mógł sobie poradzić z bólem. By przetrwać, postanowił żyć tak, jakby nie miał nic do stracenia: mocno, bez zahamowań i na krawędzi. Bo bez niej nic nie miało sensu. Równie dobrze mógł zostać królem miejskiego półświatka.&lt;/p&gt; &lt;p&gt; Teraz Milena wraca do ich rodzinnego miasta w glorii gwiazdy filmowej. Choć odniosła sukces, nie jest szczęśliwa. Pora jednak stawić czoło przeszłości. I zdrajcy, którym okazał się najbliższy jej człowiek.&lt;/p&gt; &lt;p&gt; Długo próbowali o sobie zapomnieć. Ale ból wiąże równie mocno jak miłość.&lt;/p&gt; &lt;p&gt; Tyle że sercu nie można rozkazywać. A Milenę i Igora łączy uczucie jedyne w swoim rodzaju. Czy okaże się dość silne, by pokonać kłamstwa, żal i lata milczenia?&lt;/p&gt; &lt;p&gt; Ten związek może być najbardziej szaloną rzeczą, jaką kiedykolwiek zrobili. I prawdopodobnie jeszcze tego pożałują. Ale żyje się raz. I kocha prawdziwie też tylko raz.&lt;/p&gt;</Text>
+            </TextContent>
+            <TextContent>
+                <TextType>02</TextType>
+                <ContentAudience>00</ContentAudience>
+                <Text>&lt;p&gt; Jej odejście zmieniło go w nieczułego twardziela. Ona nadal cierpi po tym, jak ją zranił. Gdy ich drogi znowu się przecinają, Milena i Igor muszą postawić wszystko na jedną kartę. Czy łączące ich uczucie okaże się silniejsze od kłamstwa, żalu i lat milczenia?&lt;/p&gt;</Text>
+            </TextContent>
+            <SupportingResource>
+                <ResourceContentType>01</ResourceContentType>
+                <ContentAudience>00</ContentAudience>
+                <ResourceMode>03</ResourceMode>
+                <ResourceVersion>
+                    <ResourceForm>01</ResourceForm>
+                    <ResourceLink>https://www.elibri.com.pl/attachments/587a53b7c80c293bbb76/cover-c4e4d29ab3b272d68799b6b3cd41ea22/original.jpg</ResourceLink>
+                </ResourceVersion>
+            </SupportingResource>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Imprint>
+                <ImprintName>Słowne</ImprintName>
+            </Imprint>
+            <Publisher>
+                <PublishingRole>01</PublishingRole>
+                <PublisherName>Burda Media Polska Sp. z o.o.</PublisherName>
+            </Publisher>
+            <CityOfPublication>Białystok</CityOfPublication>
+            <CountryOfPublication>PL</CountryOfPublication>
+            <PublishingStatus>07</PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole>01</PublishingDateRole>
+                <Date>20210728</Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole>09</PublishingDateRole>
+                <Date>20210728</Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <RelatedMaterial/>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole>00</SupplierRole>
+                    <SupplierIdentifier>
+                        <SupplierIDType>23</SupplierIDType>
+                        <IDValue>PL5423448472</IDValue>
+                    </SupplierIdentifier>
+                    <SupplierName>WYDAWNICTWO KOBIECE</SupplierName>
+                </Supplier>
+                <ProductAvailability>40</ProductAvailability>
+                <Price>
+                    <PriceType>02</PriceType>
+                    <PriceAmount>31.9</PriceAmount>
+                    <Tax>
+                        <TaxType>01</TaxType>
+                        <TaxRatePercent>5</TaxRatePercent>
+                    </Tax>
+                    <CurrencyCode>PLN</CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+    <Product datestamp="20260913">
+        <RecordReference>pl-eisbn-1420104</RecordReference>
+        <NotificationType>03</NotificationType>
+        <RecordSourceType>01</RecordSourceType>
+        <RecordSourceName>MUZEUM MIASTA ŁODZI</RecordSourceName>
+        <ProductIdentifier>
+            <ProductIDType>15</ProductIDType>
+            <IDValue>9788365026033</IDValue>
+        </ProductIdentifier>
+        <ProductIdentifier>
+            <ProductIDType>01</ProductIDType>
+            <IDTypeName>numer rekordu Biblioteki Narodowej</IDTypeName>
+            <IDValue>b1410702398</IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition>00</ProductComposition>
+            <ProductForm>BC</ProductForm>
+            <Measure>
+                <MeasureType>01</MeasureType>
+                <Measurement>30</Measurement>
+                <MeasureUnitCode>cm</MeasureUnitCode>
+            </Measure>
+            <TitleDetail>
+                <TitleType>01</TitleType>
+                <TitleElement>
+                    <TitleElementLevel>01</TitleElementLevel>
+                    <TitleText>Nauka (dla) sztuki</TitleText>
+                </TitleElement>
+            </TitleDetail>
+            <TitleDetail>
+                <TitleType>03</TitleType>
+                <TitleElement>
+                    <TitleElementLevel>01</TitleElementLevel>
+                    <TitleText>Nauka dla sztuki</TitleText>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber>1</SequenceNumber>
+                <ContributorRole>A01</ContributorRole>
+                <PersonNameInverted>Dzwonkowska, Paulina</PersonNameInverted>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber>2</SequenceNumber>
+                <ContributorRole>A01</ContributorRole>
+                <PersonNameInverted>Muzeum Miasta Łodzi</PersonNameInverted>
+            </Contributor>
+            <Contributor>
+                <SequenceNumber>3</SequenceNumber>
+                <ContributorRole>Z99</ContributorRole>
+                <PersonNameInverted>Kochelski, Tomasz</PersonNameInverted>
+            </Contributor>
+            <EditionType>NED</EditionType>
+            <EditionNumber>1</EditionNumber>
+            <Language>
+                <LanguageRole>01</LanguageRole>
+                <LanguageCode>pol</LanguageCode>
+            </Language>
+            <Extent>
+                <ExtentType>00</ExtentType>
+                <ExtentValue>36</ExtentValue>
+                <ExtentUnit>03</ExtentUnit>
+            </Extent>
+            <Extent>
+                <ExtentType>12</ExtentType>
+                <ExtentValue>2</ExtentValue>
+                <ExtentUnit>03</ExtentUnit>
+            </Extent>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Zamki i pałace</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Książka dla niewidomych</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Pismo dla niewidomych</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Zbiory muzealne</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Łódź (woj. łódzkie)</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Polska</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Bibliotekarstwo, archiwistyka, muzealnictwo</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+                <SubjectCode>Architektura i budownictwo</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>09</SubjectSchemeIdentifier>
+                <SubjectCode>728.8(438)</SubjectCode>
+            </Subject>
+            <Subject>
+                <SubjectSchemeIdentifier>09</SubjectSchemeIdentifier>
+                <SubjectCode>069.5</SubjectCode>
+            </Subject>
+        </DescriptiveDetail>
+        <PublishingDetail>
+            <Imprint>
+                <ImprintName>Muzeum Miasta Łodzi,</ImprintName>
+            </Imprint>
+            <Publisher>
+                <PublishingRole>01</PublishingRole>
+                <PublisherName>MUZEUM MIASTA ŁODZI</PublisherName>
+            </Publisher>
+            <CityOfPublication>Łódź :</CityOfPublication>
+            <CountryOfPublication>PL</CountryOfPublication>
+            <PublishingDate>
+                <PublishingDateRole>01</PublishingDateRole>
+                <Date>20141230</Date>
+            </PublishingDate>
+            <PublishingDate>
+                <PublishingDateRole>09</PublishingDateRole>
+                <Date>20141230</Date>
+            </PublishingDate>
+        </PublishingDetail>
+    </Product>
+    </ONIXMessage>
